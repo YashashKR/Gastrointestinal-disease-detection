@@ -167,7 +167,8 @@ To deploy the project:
 ## Screenshots
 
 ### Home Page
-![Home Page](static/screenshots/home_page.png)
+![Screenshot 2024-12-03 202658](https://github.com/user-attachments/assets/d5c8f77f-77f3-490e-b2c3-e230ed0bafe0)
+
 
 ### Prediction Result
 ![Prediction Result](static/screenshots/prediction_result.png)
