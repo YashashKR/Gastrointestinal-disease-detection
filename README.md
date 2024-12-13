@@ -26,7 +26,7 @@ This project is a deep learning-based system for detecting gastrointestinal dise
 
 ## Technologies Used
 
-- **Python 3.x**
+- **Python**
 - **Flask** (for the web application)
 - **PyTorch** (for the deep learning model)
 - **Torchvision** (for pre-trained models and transformations)
@@ -158,9 +158,9 @@ The model used is a **ResNet-18** fine-tuned for 8 classes. To retrain the model
 
 To deploy the project:
 
-1. **Set up Flask** on a server (e.g., Heroku, AWS, or DigitalOcean).
+1. **Set up Flask** on a server.
 2. **Ensure the model file** is uploaded with your project.
-3. **Run the Flask app** using `gunicorn` or similar tools.
+3. **Run the Flask app** by app.py
 
 ---
 
@@ -169,9 +169,6 @@ To deploy the project:
 ### Home Page
 ![Screenshot 2024-12-14 004241](https://github.com/user-attachments/assets/a524c7ec-7da3-4084-8cbc-8f5082153cf8)
 
-
-### Prediction Result
-![Prediction Result](static/screenshots/prediction_result.png)
 
 ---
 
