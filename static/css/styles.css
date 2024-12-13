@@ -1,0 +1,106 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    background-image: url('/static/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    padding: 70px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.drag-area {
+    border: 2px dashed #888;
+    border-radius: 12px;
+    padding: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.drag-area:hover {
+    background-color: #f4f4f4;
+    border-color: #555;
+    transform: scale(1.02);
+}
+
+.drag-area.hover {
+    background-color: #e6e6e6;
+    border-color: #333;
+}
+
+.drag-area p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.drag-area span {
+    color: #007bff;
+    font-weight: bold;
+}
+
+#file-input {
+    display: none;
+}
+
+.predict-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.predict-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.output {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    color: #333;
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.output.show {
+    display: block;
+}
