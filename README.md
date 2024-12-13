@@ -121,31 +121,7 @@ The model used is a **ResNet-18** fine-tuned for 8 classes. To retrain the model
 
 1. **Install PyTorch** and relevant libraries.
 2. **Use the Kvasir dataset** and split into train/test sets.
-3. **Train the model** with this sample code snippet:
-
-   ```python
-   import torch
-   from torchvision import models, transforms
-   import torch.nn as nn
-   from torch.utils.data import DataLoader, Dataset
-
-   # Load pre-trained ResNet-18 model
-   model = models.resnet18(pretrained=True)
-   model.fc = nn.Linear(model.fc.in_features, 8)  # 8 classes
-
-   # Define loss and optimizer
-   criterion = nn.CrossEntropyLoss()
-   optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
-
-   # Training loop (simplified)
-   for epoch in range(num_epochs):
-       for images, labels in train_loader:
-           outputs = model(images)
-           loss = criterion(outputs, labels)
-           optimizer.zero_grad()
-           loss.backward()
-           optimizer.step()
-   ```
+3. **Train the model** 
 
 4. **Save the model**:
    ```python
