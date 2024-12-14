@@ -37,14 +37,14 @@ This project is a deep learning-based system for detecting gastrointestinal dise
 
 The model was trained on the **Kvasir dataset**, which contains labeled images of various gastrointestinal diseases. The dataset includes classes such as:
 
-1. **Class 1**: Esophagitis
-2. **Class 2**: Polyps
-3. **Class 3**: Ulcerative Colitis
-4. **Class 4**: Normal Z-line
-5. **Class 5**: Erythematous
-6. **Class 6**: Barrett's
-7. **Class 7**: Dyed Lifted Polyps
-8. **Class 8**: Dyed Resection Margins
+1. **Class 1**: Dyed-lifted-polyps
+2. **Class 2**: Dyed-resection-margins
+3. **Class 3**: Esophagitis
+4. **Class 4**: Normal-cecum
+5. **Class 5**: Normal-pylorus
+6. **Class 6**: Normal-z-line
+7. **Class 7**: Polyps
+8. **Class 8**: Ulcerative-Colitis
 
 ---
 
