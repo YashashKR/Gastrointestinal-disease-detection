@@ -14,7 +14,6 @@ This project leverages a ResNet-18 model to detect gastrointestinal diseases fro
 - [Deployment](#deployment)
 - [Screenshots](#screenshots)
 - [Future Improvements](#future-improvements)
-- [License](#license)
 
 ---
 
